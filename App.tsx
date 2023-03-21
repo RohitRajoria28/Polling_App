@@ -19,36 +19,7 @@ const App = () => {
     </NavigationContainer>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#fff',
-  },
-  item: {
-    padding: 16,
-    borderBottomWidth: 1,
-    borderBottomColor: '#ddd',
-  },
-  title: {
-    fontSize: 16,
-    fontWeight: 'bold',
-    marginBottom: 8,
-  },
-  url: {
-    color: 'blue',
-    marginBottom: 8,
-  },
-  author: {
-    color: '#666',
-    marginBottom: 4,
-  },
-  created_at: {
-    color: '#666',
-  },
-});
+ 
 
 export default App;
 
